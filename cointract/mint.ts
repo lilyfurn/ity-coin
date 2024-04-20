@@ -26,7 +26,7 @@ import {
 
 const connection = new Connection(clusterApiUrl("testnet"));
 
-const payer = await getKeypairFromFile("~/.config/solana/id.json");
+const payer = await getKeypairFromFile("id.json");
 console.log("payer", payer.publicKey.toBase58());
 
 const mint = Keypair.generate();
@@ -37,8 +37,8 @@ const metadata: TokenMetadata = {
   mint: mint.publicKey,
   name: "Only Possible On Solana",
   symbol: "OPOS",
-  uri: "https://new.com",
-  additionalMetadata: [["key", "vslue"]],
+  uri: "https://github.com/lilyfurn/ity-coin/blob/7daab13d8549289872755053c666f29ed9498b79/cointract/metadata.json",
+  additionalMetadata: [["key", "value"]],
 };
 
 const mintSpace = getMintLen([ExtensionType.MetadataPointer]);
