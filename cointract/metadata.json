@@ -1,0 +1,36 @@
+{
+    "name": "Idiot Coin",
+    "symbol": "ITYS",
+    "description": "Idiot Coin (ITYS): The most nonsensical and satirical token on the Solana blockchain. Invest because why not?",
+    "image": "https://example.com/itys_image.png",
+    "external_url": "https://example.com/itys",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Eccentric Purple"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Goofy Dollar Signs"
+      }
+    ],
+    "collection": {
+      "name": "Idiot Coin Collection",
+      "family": "Meme Crypto"
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "https://example.com/itys_image.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "4dorobLLemq7WaBoewgga9bdVgqbsn5mnBHF7A7GAiWK", 
+          "share": 100
+        }
+      ]
+    }
+  }
+  

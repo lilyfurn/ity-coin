@@ -1,0 +1,38 @@
+Solana Setup
+
+1. solana config set --keypair /home/ity/.config/solana/id.json
+
+pubkey: 4dorobLLemq7WaBoewgga9bdVgqbsn5mnBHF7A7GAiWK
+seed phrase: shock nurse visual wall apple bubble soft glue apple plunge helmet leave
+
+cp ~/.config/solana/id.json /mnt/c/Users/382xlinxus/Desktop/wallet/sol001.json
+
+TESTNET
+
+solana config set --keypair ~/.config/solana/id.json
+
+spl-token create-token
+
+Creating token: mnx594BwaarAcCm2VmfdXZs8bjUWFBfMXYunjj7x8SH 
+
+// under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Token Address: mnx594BwaarAcCm2VmfdXZs8bjUWFBfMXYunjj7x8SH
+Decimal: 9
+Signature: 7SJfc1wPTDW35p7v1m6dMdx9rtWHy1geqoeY7MURFSZtbP3W9abAfQNMJQ6TRefN9fDkPYTkpub6Js6vki1tKRu
+
+// check supply of token
+spl-token supply mnx594BwaarAcCm2VmfdXZs8bjUWFBfMXYunjj7x8SH
+
+// Create account
+spl-token create-account mnx594BwaarAcCm2VmfdXZs8bjUWFBfMXYunjj7x8SH
+
+Creating account: F4yF3nV4PGfHn8UMC47Yt1kbVT1arutgkmgxk2nKRXy7
+
+Sifnature 4z36KXB66JbJ6wH4y3ZWvMAgnq1rXiVE53X7TPbfe5dCNSTYgGjNcTawLAkSAU55UnWdhs9E4m2ncbepcYEZELJS
+
+//Mint
+spl-token mint mnx594BwaarAcCm2VmfdXZs8bjUWFBfMXYunjj7x8SH 1000000000
+
+// 
+spl-token balance mnx594BwaarAcCm2VmfdXZs8bjUWFBfMXYunjj7x8SH
