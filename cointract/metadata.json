@@ -1,8 +1,8 @@
 {
-  "name": "ITYS Coin",
+  "name": "Idiot",
   "symbol": "ITYS",
-  "description": "Idiot Coin Collection",
-  "image": "https://github.com/lilyfurn/ity-coin/blob/7daab13d8549289872755053c666f29ed9498b79/cointract/itys_img.png",
+  "description": "Idiot Tokenization",
+  "image": "https://raw.githubusercontent.com/lilyfurn/ity-coin/7daab13d8549289872755053c666f29ed9498b79/cointract/itys_img.png",
   "tags": ["Meme"],
   "extensions": {
     "website": "https://www.itys.me/",

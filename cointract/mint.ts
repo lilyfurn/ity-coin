@@ -37,7 +37,7 @@ const metadata: TokenMetadata = {
   mint: mint.publicKey,
   name: "idiot",
   symbol: "ITYS",
-  uri: "https://github.com/lilyfurn/ity-coin/blob/7daab13d8549289872755053c666f29ed9498b79/cointract/metadata.json",
+  uri: "https://raw.githubusercontent.com/lilyfurn/ity-coin/main/cointract/metadata.json",
   additionalMetadata: [["key", "value"]],
 };
 
