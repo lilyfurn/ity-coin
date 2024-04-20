@@ -35,8 +35,8 @@ console.log("mint", mint.publicKey.toBase58());
 
 const metadata: TokenMetadata = {
   mint: mint.publicKey,
-  name: "Only Possible On Solana",
-  symbol: "OPOS",
+  name: "idiot",
+  symbol: "ITYS",
   uri: "https://github.com/lilyfurn/ity-coin/blob/7daab13d8549289872755053c666f29ed9498b79/cointract/metadata.json",
   additionalMetadata: [["key", "value"]],
 };
@@ -66,7 +66,7 @@ const initializeMetadataPointerIx = createInitializeMetadataPointerInstruction(
 
 const initializeMintIx = createInitializeMintInstruction(
   mint.publicKey,
-  2, // decimals,
+  9, // decimals,
   payer.publicKey,
   null,
   TOKEN_2022_PROGRAM_ID
